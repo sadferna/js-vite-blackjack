@@ -1,0 +1,35 @@
+html, body {
+  margin: 0px;
+  background-color: #2f4f30 ;
+  color: white !important;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  overflow: hidden;
+  /* background-image: "../images/bg-blackjack.jpg"; */
+}
+
+header{
+  border-style: double;
+  margin-bottom: 20px;
+}
+
+.titulo {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size:25px;
+}
+
+.carta {
+  width: 150px;
+  position: relative;
+  left: 100px;
+  margin-left:-75px;
+}
+
+#computadora-cartas, #jugador-cartas{
+  height:240px;
+}
